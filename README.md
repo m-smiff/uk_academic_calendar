@@ -1,5 +1,7 @@
 # UKAcademicCalendar
 
+<div style="display:flex;">[![Gem Version](https://badge.fury.io/rb/uk_academic_calendar.svg)](https://badge.fury.io/rb/uk_academic_calendar)</div>
+
 Designed to assist in Ruby programs dealing with the UK Academic Calendar, i.e. the Sept - Sept academic year, and the 3 'terms' (Autumn, Spring, Summer).
 
 ## Installation
@@ -53,10 +55,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 - Further granularity around the 'teachable', and inversely, 'unteachable' days within a term (e.g. adding bank holidays/inset days etc)
 - Considering the above, implementation of e.g., `#teachable_days` and `#non_teachable_days` returning sorted sets of applicable dates
 - Setting of 'contexts' so terms understand what dates to apply for a given 'context' (e.g. a particular local authority)
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/uk_academic_calendar.
 
 ## License
 
