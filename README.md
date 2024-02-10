@@ -40,7 +40,7 @@ term_now.to_range #=> (2024-01-01..2024-03-31)
 term_now.all_dates #=> #<SortedSet:{Mon, 01 Jan 2024...}
 ```
 
-See [rubydocs](https://www.rubydoc.info/github/[USERNAME]/uk_academic_calendar/main) for full details on the API.
+See rubydoc [docs](https://www.rubydoc.info/github/m-smiff/uk_academic_calendar/main) for full details on the API (with help from Yard).
 
 ## Development
 

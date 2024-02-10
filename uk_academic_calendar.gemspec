@@ -8,14 +8,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Matt']
   spec.email         = ['jetnova@pm.me']
 
-  spec.summary       = "Making the UK's Academic Year (Sept 1st -> Aug 31st) easier to work with."
-  spec.description   = 'Provides Term objects and extensions to Date/Time classes'
+  spec.summary       = 'UK Academic Calendar'
+  spec.description   = 'Designed to assist in Ruby programs dealing with the UK Academic Calendar'
   spec.homepage      = "https://www.github.com/m-smiff/#{spec.name}"
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['documentation_uri'] = spec.homepage
+  spec.metadata['documentation_uri'] = "https://www.rubydoc.info/github/m-smiff/#{spec.name}/main"
   spec.metadata['source_code_uri'] = spec.homepage
   spec.metadata['changelog_uri'] = spec.homepage
   spec.metadata['rubygems_mfa_required'] = 'true'
