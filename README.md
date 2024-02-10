@@ -1,0 +1,63 @@
+# UKAcademicCalendar
+
+Designed to assist in Ruby programs dealing with the UK Academic Calendar, i.e. the Sept - Sept academic year, and the 3 'terms' (Autumn, Spring, Summer).
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'uk_academic_calendar'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install uk_academic_calendar
+
+## Usage
+
+```ruby
+require 'uk_academic_calendar'
+
+# Assuming today is 20th Jan 2024
+Date.today.academic_year #=> 2023
+Date.today.beginning_of_academic_year #=> 2023-09-01
+Date.today.end_of_academic_year #=> 2024-08-31
+# or...
+Time.now.academic_year #=> 2023
+Time.now.beginning_of_academic_year #=> 2023-09-01 00:00:00 +0100
+Time.now.end_of_academic_year #=> 2024-08-31 23:59:59.999999999 +0100
+
+term_now = Date.today.academic_term #=> Spring 2023/2024
+term_now.start_date #=> 2024-01-01
+term_now.end_date #=> 2024-03-31, i.e. Easter Sunday
+term_now.start_date = '2025-01-01' #=> raises #UKAcademicCalendar::InvalidTermStart error
+term_now.to_range #=> (2024-01-01..2024-03-31)
+term_now.all_dates #=> #<SortedSet:{Mon, 01 Jan 2024...}
+```
+
+See [rubydocs](https://www.rubydoc.info/github/[USERNAME]/uk_academic_calendar/main) for full details on the API.
+
+## Development
+
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## TODO
+
+- Further granularity around the 'teachable', and inversely, 'unteachable' days within a term (e.g. adding bank holidays/inset days etc)
+- Considering the above, implementation of e.g., `#teachable_days` and `#non_teachable_days` returning sorted sets of applicable dates
+- Setting of 'contexts' so terms understand what dates to apply for a given 'context' (e.g. a particular local authority)
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/uk_academic_calendar.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
