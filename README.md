@@ -1,6 +1,8 @@
 # UKAcademicCalendar
 
-<div style="display:flex;">[![Gem Version](https://badge.fury.io/rb/uk_academic_calendar.svg)](https://badge.fury.io/rb/uk_academic_calendar)</div>
+<div style="display:flex;">
+    <a href="https://badge.fury.io/rb/uk_academic_calendar"><img src="https://badge.fury.io/rb/uk_academic_calendar.svg" alt="Gem Version" height="18"></a>
+</div>
 
 Designed to assist in Ruby programs dealing with the UK Academic Calendar, i.e. the Sept - Sept academic year, and the 3 'terms' (Autumn, Spring, Summer).
 
