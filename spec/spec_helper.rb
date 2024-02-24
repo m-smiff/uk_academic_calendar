@@ -11,7 +11,7 @@ require 'uk_academic_calendar'
 require 'rspec/collection_matchers'
 require 'timecop'
 
-Dir['./spec/support/**/*.rb'].sort.each { |f| require f }
+Dir['./spec/support/**/*.rb'].each { |f| require f }
 
 RSpec.configure do |config|
   config.example_status_persistence_file_path = '.rspec_status'
