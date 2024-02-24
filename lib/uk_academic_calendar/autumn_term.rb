@@ -7,12 +7,12 @@ module UKAcademicCalendar
   class AutumnTerm < Term
     # @return [Date] Sep 1st
     def nominal_start_date
-      @nominal_start_date ||= Date.today.beginning_of_academic_year.change(year: academic_year)
+      Date.today.beginning_of_academic_year.change(year: academic_year)
     end
 
     # @return [Date] Dec 31st
     def nominal_end_date
-      @nominal_end_date ||= nominal_start_date.end_of_year
+      nominal_start_date.end_of_year
     end
   end
 end
