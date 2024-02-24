@@ -1,6 +1,6 @@
 # UKAcademicCalendar
 
-<div style="display:flex;">
+<div style="display:flex;justify-content:space-around">
     <a href="https://badge.fury.io/rb/uk_academic_calendar"><img src="https://badge.fury.io/rb/uk_academic_calendar.svg" alt="Gem Version" height="18"></a>
 </div>
 
@@ -59,6 +59,11 @@ We are using [conventional commits](https://www.conventionalcommits.org/en/v1.0.
 - Further granularity around the 'teachable', and inversely, 'unteachable' days within a term (e.g. adding bank holidays/inset days etc)
 - Considering the above, implementation of e.g., `#teachable_days` and `#non_teachable_days` returning sorted sets of applicable dates
 - Setting of 'contexts' so terms understand what dates to apply for a given 'context' (e.g. a particular local authority)
+
+<div style="display:flex;flex-direction:column;justify-content:space-around;align-items:center;">
+    <a href="https://www.buymeacoffee.com/m_smiff" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+    <img src="bmc_qr.png" width=240 />
+</div>
 
 ## License
 
