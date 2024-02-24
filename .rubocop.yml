@@ -23,5 +23,5 @@ Metrics/BlockLength:
     - '*.gemspec'
     - 'spec/**/*.rb'
 
-Rspec/NestedGroups:
+RSpec/NestedGroups:
   Max: 4
