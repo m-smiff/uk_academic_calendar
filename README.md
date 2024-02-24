@@ -50,7 +50,9 @@ See rubydoc [docs](https://www.rubydoc.info/github/m-smiff/uk_academic_calendar/
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Contribution
+
+We are using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) and an [automated release action](https://github.com/google-github-actions/release-please-action). Please ensure you familiarise youself with these before contributing.
 
 ## TODO
 
