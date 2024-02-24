@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'active_support/core_ext/date'
 require_relative '../mixins/date_and_time_instance_methods'
 
 class Date

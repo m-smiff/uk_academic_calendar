@@ -2,15 +2,14 @@
 
 require 'uk_academic_calendar/version'
 
+require 'active_support/all'
+
 require 'uk_academic_calendar/core_ext/date'
 require 'uk_academic_calendar/core_ext/time'
 require 'uk_academic_calendar/core_ext/integer'
 require 'uk_academic_calendar/autumn_term'
 require 'uk_academic_calendar/spring_term'
 require 'uk_academic_calendar/summer_term'
-
-require 'active_support/core_ext/class/subclasses'
-require 'active_support/core_ext/object/inclusion'
 
 # Top-level namespace, itself implementing a number of constants and module methods documented below.
 module UKAcademicCalendar
