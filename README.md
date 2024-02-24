@@ -60,6 +60,11 @@ We are using [conventional commits](https://www.conventionalcommits.org/en/v1.0.
 - Considering the above, implementation of e.g., `#teachable_days` and `#non_teachable_days` returning sorted sets of applicable dates
 - Setting of 'contexts' so terms understand what dates to apply for a given 'context' (e.g. a particular local authority)
 
+<div style="display:flex;flex-direction:column;justify-content:space-around;align-items:center;">
+    <a href="https://www.buymeacoffee.com/m_smiff" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+    <img src="bmc_qr.png" width=240 />
+</div>
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
