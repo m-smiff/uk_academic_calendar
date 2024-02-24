@@ -15,7 +15,6 @@ jobs:
         with:
           release-type: ruby
           manifest-file: .release-please-manifest.json
-          token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
       # Setup ruby if a release was created
