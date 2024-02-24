@@ -3,7 +3,7 @@
 require_relative 'term'
 
 module UKAcademicCalendar
-  # Concrete class allowing instantiation of instances of an spring term, for a given academic year
+  # Concrete class allowing instantiation of instances of a spring term, for a given academic year
   class SpringTerm < Term
     # @return [Date] Jan 1st
     def nominal_start_date

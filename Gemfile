@@ -13,8 +13,8 @@ end
 
 group :test do
   gem 'rspec', '~> 3.12'
-
   gem 'rspec-collection_matchers', '~> 1.2'
+  gem 'rubocop-rspec', '~> 2.26'
   gem 'simplecov', '~> 0.22'
   gem 'timecop', '~> 0.9'
 end
