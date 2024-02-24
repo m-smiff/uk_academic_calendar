@@ -3,7 +3,7 @@
 require_relative 'term'
 
 module UKAcademicCalendar
-  # Concrete class allowing instantiation of instances of an Summer term, for a given academic year
+  # Concrete class allowing instantiation of instances of a Summer term, for a given academic year
   class SummerTerm < Term
     # @return [Date] the Monday after Easter Sunday
     def nominal_start_date
