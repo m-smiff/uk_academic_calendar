@@ -1,4 +1,11 @@
 {
   "release-type": "ruby",
-  "version-file": "lib/${{ env.GEM_NAME }}/version.rb"
+  "packages": {
+    ".": {
+      "release-type": "ruby",
+      "package-name": "${{ env.GEM_NAME }}",
+      "version-file": "lib/${{ env.GEM_NAME }}/version.rb",
+      "bump-minor-pre-major": true
+    }
+  }
 }
