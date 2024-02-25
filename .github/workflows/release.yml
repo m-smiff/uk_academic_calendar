@@ -12,9 +12,6 @@ jobs:
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v4
         id: release
-        with:
-          release-type: ruby
-          manifest-file: .release-please-manifest.json
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
       # Setup ruby if a release was created
