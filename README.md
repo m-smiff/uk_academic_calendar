@@ -1,5 +1,5 @@
 ![Gem version badge](https://badge.fury.io/rb/uk_academic_calendar.svg)
-![Tests status](https://github.com/m-smiff/uk_academic_calendar/actions/workflows/specs/badge.svg)
+![Tests status](https://github.com/m-smiff/uk_academic_calendar/actions/workflows/specs.yml/badge.svg)
 
 # UKAcademicCalendar
 
