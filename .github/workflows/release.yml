@@ -6,8 +6,6 @@ on:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    env:
-      GEM_NAME: 'uk_academic_calendar'
     permissions:
       packages: write
       contents: write
