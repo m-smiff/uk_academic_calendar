@@ -7,8 +7,8 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     permissions:
-      packages: write
       contents: write
+      pull-requests: write
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v4
         id: release
