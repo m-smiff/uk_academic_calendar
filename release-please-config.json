@@ -3,8 +3,8 @@
   "packages": {
     ".": {
       "release-type": "ruby",
-      "package-name": "${{ env.GEM_NAME }}",
-      "version-file": "lib/${{ env.GEM_NAME }}/version.rb",
+      "package-name": "uk_academic_calendar",
+      "version-file": "lib/uk_academic_calendar/version.rb",
       "bump-minor-pre-major": true
     }
   }
