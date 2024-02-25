@@ -1,10 +1,4 @@
 {
   "release-type": "ruby",
-  "packages": {
-    ".": {
-      "release-type": "ruby",
-      "package-name": "uk_academic_calendar",
-      "version-file": "lib/uk_academic_calendar/version.rb"
-    }
-  }
+  "version-file": "lib/${{ env.GEM_NAME }}/version.rb"
 }
