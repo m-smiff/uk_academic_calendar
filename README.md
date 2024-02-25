@@ -1,8 +1,7 @@
-# UKAcademicCalendar
+![Gem version badge](https://badge.fury.io/rb/uk_academic_calendar.svg)
+![Tests status](https://github.com/m-smiff/uk_academic_calendar/actions/workflows/specs/badge.svg)
 
-<div style="display:flex;">
-    <a href="https://badge.fury.io/rb/uk_academic_calendar"><img src="https://badge.fury.io/rb/uk_academic_calendar.svg" alt="Gem Version" height="18"></a>
-</div>
+# UKAcademicCalendar
 
 Designed to assist in Ruby programs dealing with the UK Academic Calendar, i.e. the Sept - Sept academic year, and the 3 'terms' (Autumn, Spring, Summer).
 
@@ -63,9 +62,3 @@ We are using [conventional commits](https://www.conventionalcommits.org/en/v1.0.
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-<hr />
-
-<div style="display:flex;justify-content:space-around;">
-    <a href="https://www.buymeacoffee.com/m_smiff" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-</div>
