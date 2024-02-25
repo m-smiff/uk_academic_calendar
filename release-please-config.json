@@ -1,5 +1,10 @@
 {
-  "release-type": "ruby",
-  "version-file": "lib/uk_academic_calendar/version.rb",
-  "bump-minor-pre-major": true
+  "packages": {
+    ".": {
+      "release-type": "ruby",
+      "package-name": "uk_academic_calendar",
+      "version-file": "lib/uk_academic_calendar/version.rb",
+      "bump-minor-pre-major": true
+    }
+  }
 }
