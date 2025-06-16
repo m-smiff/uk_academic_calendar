@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'abstract_class', '~> 1.0'
-  spec.add_dependency 'activesupport', '~> 7.0'
+  spec.add_dependency 'activesupport', '>= 7.0'
   spec.add_dependency 'easter', '~> 0.2'
   spec.add_dependency 'sorted_set', '~> 1.0'
 end
