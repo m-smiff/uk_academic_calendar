@@ -7,14 +7,14 @@ gemspec
 gem 'rake', '~> 13.0'
 
 group :development do
-  gem 'rubocop', '~> 1.21'
+  gem 'rubocop', '~> 1.76'
   gem 'yard', '~> 0.9'
 end
 
 group :test do
-  gem 'rspec', '~> 3.12'
-  gem 'rspec-collection_matchers', '~> 1.2'
-  gem 'rubocop-rspec', '~> 2.26'
-  gem 'simplecov', '~> 0.22'
-  gem 'timecop', '~> 0.9'
+  gem 'rspec', '~> 3.13'
+  gem 'rspec-collection_matchers'
+  gem 'rubocop-rspec'
+  gem 'simplecov'
+  gem 'timecop'
 end
