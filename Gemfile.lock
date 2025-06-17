@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    uk_academic_calendar (1.2.0)
+    uk_academic_calendar (1.2.1)
       abstract_class (~> 1.0)
       activesupport (>= 7.0, < 8.1)
       easter (~> 0.2)
