@@ -5,5 +5,5 @@ RSpec.describe UKAcademicCalendar::SpringTerm do
   let(:assert_nominal_start_date) { Date.new(academic_year + 1, 1, 1) }
   let(:assert_nominal_end_date) { Easter.easter(academic_year + 1) }
 
-  include_examples 'concrete term class'
+  it_behaves_like 'concrete term class'
 end

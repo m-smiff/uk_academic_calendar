@@ -5,5 +5,5 @@ RSpec.describe UKAcademicCalendar::AutumnTerm do
   let(:assert_nominal_start_date) { Date.new(academic_year, 9, 1) }
   let(:assert_nominal_end_date) { Date.new(academic_year, 12, 31) }
 
-  include_examples 'concrete term class'
+  it_behaves_like 'concrete term class'
 end
