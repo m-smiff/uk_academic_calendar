@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/m-smiff/uk_academic_calendar/compare/uk_academic_calendar/v1.2.0...uk_academic_calendar/v1.2.1) (2025-06-17)
+
+
+### Miscellaneous Chores
+
+* force release ([eea77df](https://github.com/m-smiff/uk_academic_calendar/commit/eea77dfb3794ff6bf9c0cfdda15ed8f8b99a0c2a))
+
 ## [1.2.0](https://github.com/m-smiff/uk_academic_calendar/compare/uk_academic_calendar/v1.1.0...uk_academic_calendar/v1.2.0) (2025-06-17)
 
 
