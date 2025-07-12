@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/m-smiff/uk_academic_calendar/compare/uk_academic_calendar/v1.2.1...uk_academic_calendar/v1.2.2) (2025-07-12)
+
+
+### Bug Fixes
+
+* incorrect usage of default param ([#31](https://github.com/m-smiff/uk_academic_calendar/issues/31)) ([80d1453](https://github.com/m-smiff/uk_academic_calendar/commit/80d14537becc2a39e79fb721469a9076c6f9d390))
+
 ## [1.2.1](https://github.com/m-smiff/uk_academic_calendar/compare/uk_academic_calendar/v1.2.0...uk_academic_calendar/v1.2.1) (2025-06-17)
 
 
