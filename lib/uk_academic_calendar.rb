@@ -54,8 +54,8 @@ module UKAcademicCalendar
     # @param val [#to_date]
     # @return [UKAcademicCalendar::AutumnTerm, UKAcademicCalendar::SpringTerm, UKAcademicCalendar::SummerTerm] instance
     #   of Autumn/Spring/Summer term deemed to contain date param.
-    def term_including(val = Date.today)
-      date = val.to_date
+    def term_including(val = nil)
+      date = val&.to_date || Date.today
       all_terms(date.academic_year).find { |term| date.in? term }
     end
   end
